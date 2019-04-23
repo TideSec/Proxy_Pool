@@ -35,6 +35,8 @@ python proxy_check.py
 
 我对部分代码进行了修改，完善了部分提取代理的解析代码，并加入了web展示和web接口，方便其他程序调用。
 
+web页面我是从我的另外一个扫描器上改过来的`https://github.com/TideSec/WDScanner/`，里面可能有部分无用代码没有删除。
+
 程序的几个功能：
 
 * 每天从多个代理ip网站上抓下最新高匿ip数据。
