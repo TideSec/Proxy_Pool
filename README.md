@@ -4,18 +4,24 @@ Proxy_Pool，一个小巧的代理ip抓取+评估+存储+展示的一体化的�
 
 # 安装
 
-1、在mysql中新建数据库proxy，将proxy.sql文件导入，在include/config.inc.php中修改数据库密码。
+1、从GitHub上脱下来
 
-2、此时本机访问http://ip:port，应该可以看到代理web展示界面
+```
+git clone https://github.com/TideSec/Proxy_Pool
 
-3、安装python2依赖库
+```
+2、在mysql中新建数据库proxy，将proxy.sql文件导入，在include/config.inc.php中修改数据库密码。
+
+3、此时本机访问http://ip:port，应该可以看到代理web展示界面
+
+4、安装python2依赖库
 
 ```
 pip install lxml
 pip install requests
 pip install pymysql
 ```
-4、在py_proxy_task/config.py文件中配置数据库连接信息及其他参数。
+5、在py_proxy_task/config.py文件中配置数据库连接信息及其他参数。
 
 # 使用
 
@@ -39,9 +45,11 @@ web页面我是从我的另外一个扫描器上改过来的`https://github.com/
 
 程序的几个功能：
 
-* 每天从多个代理ip网站上抓下最新高匿ip数据。
-* 经过筛选后的ip将存入数据库。
-* 存入数据库的ip每天也要经过测试，存在剔除、评分机制，多次不合格的ip将被删除，每个ip都被评分，我们最终可以按得分排名获得稳定、低响应时间的优质ip。	
+1、每天从多个代理ip网站上抓下最新高匿ip数据。
+
+2、经过筛选后的ip将存入数据库。
+
+3、存入数据库的ip每天也要经过测试，存在剔除、评分机制，多次不合格的ip将被删除，每个ip都被评分，我们最终可以按得分排名获得稳定、低响应时间的优质ip。	
    
 web展示如下图所示：
 <div align=center><img src=images/001.png ></div>
