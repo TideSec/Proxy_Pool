@@ -10,7 +10,7 @@ Proxy_Pool，一个小巧的代理ip抓取+评估+存储+展示的一体化的�
 git clone https://github.com/TideSec/Proxy_Pool
 
 ```
-web服务器在unix/linux下可以用https://github.com/teddysun/lamp进行快速安装。
+web服务器在unix/linux下可以用`https://github.com/teddysun/lamp`进行快速安装。
 
 在windows下可以用[phpstudy](http://phpstudy.php.cn/)进行快速部署。
 
