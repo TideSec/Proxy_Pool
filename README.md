@@ -4,12 +4,16 @@ Proxy_Pool，一个小巧的代理ip抓取+评估+存储+展示的一体化的�
 
 # 安装
 
-1、从GitHub上脱下来
+1、从GitHub上脱下来，把代码放在web目录下。
 
 ```
 git clone https://github.com/TideSec/Proxy_Pool
 
 ```
+web服务器在unix/linux下可以用https://github.com/teddysun/lamp进行快速安装。
+
+在windows下可以用[phpstudy](http://phpstudy.php.cn/)进行快速部署。
+
 2、在mysql中新建数据库proxy，将proxy.sql文件导入，在include/config.inc.php中修改数据库密码。
 
 3、此时本机访问http://ip:port，应该可以看到代理web展示界面
@@ -37,7 +41,7 @@ python proxy_check.py
 
 # 简介
 
-原代码在这里：`https://github.com/chungminglu/Proxy`
+原作者代码在这里：`https://github.com/chungminglu/Proxy`
 
 我对部分代码进行了修改，完善了部分提取代理的解析代码，并加入了web展示和web接口，方便其他程序调用。
 
