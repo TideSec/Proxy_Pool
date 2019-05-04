@@ -97,7 +97,16 @@ CHECK_TIME_INTERVAL = 24*3600  # 每天更新一次
 
 # 关注我们
 
+
 **TideSec安全团队：**
 
-![pic](images/ewm.png)
+Tide安全团队正式成立于2019年1月，是以互联网攻防技术研究为目标的安全团队，目前聚集了十多位专业的安全攻防技术研究人员，专注于网络攻防、Web安全、移动终端、安全开发、IoT/物联网/工控安全等方向。
+
+想了解更多Tide安全团队，请关注团队官网: http://www.TideSec.net 或关注公众号：
+
+<div align=center><img src=images/ewm.png width=30% ></div>
+
+**和我联系：**
+
+<div align=center><img src=images/zjwf.png width=30% ></div>
 
